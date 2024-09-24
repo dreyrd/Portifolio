@@ -1,0 +1,174 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #4B4237;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #DED4BA;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    align-items: center;
+}
+
+#hamburguer{
+    height: 80%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#fechar{
+    height: 70%;
+    margin-left: auto;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+nav > ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li{
+    display: flex;
+    cursor: pointer;
+    list-style-type: none;
+    margin: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+nav > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #4B4237;
+    cursor: pointer;
+    margin: 0;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+nav > ul > li > a:hover{
+    background-color: #4B4237;
+    color: white;
+}
+nav > h2{
+    margin: 10px;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    transform: translateX(-100%);
+    flex-direction: column;
+    position: absolute;
+    background-color: #DED4BA;
+    width: 350px;
+    max-width: auto;
+    height: 100%;
+    z-index: 999;
+    overflow: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+nav::-webkit-scrollbar{
+    width: 0;
+}
+
+.traco{
+    /* width: 20%; */
+    height: 1px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #4B4237;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+.logo{
+    display: flex;
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 8.5%;
+    padding: 0 5px 0 10px;
+}
+
+.divisao{
+    display: flex;
+    width: 33%;
+    height: 100%;
+    align-items: center;
+}
+.divisao-logo{
+    display: flex;
+    width: 34%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#andrey{
+    height: 100%;
+}
+
+.conteudos{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 300px;
+    height: 1000px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+
+}
+
+.contatos{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.direita{
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    height: 200px;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #DED4BA;
+    border-radius: 2em;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: transparent;
+}
