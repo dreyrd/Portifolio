@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 1</title>
+    <link rel="stylesheet" href="../../style.css">
+    <title>UI/UX figma</title>
 </head>
 <body>
-    <p>ola</p>
+
+    <div id="overlay"></div>
+    
+    <nav id="menu">
+        <div class="logo">
+            <img src="../../img/Andrey.svg" alt="Andrey">
+            <img id="fechar" src="../../img/fechar.svg" alt="Fechar menu" onclick="fecharMenu()">
+        </div>
+        
+        <h2>Projetos</h2>
+
+        <ul>
+            <li><a href="../projeto1/introducao.html">UI/UX figma</a></li>
+            <div class="traco"></div>
+            <li><a href="../projeto2/introducao.html">Comandos básicos</a></li>
+            <div class="traco"></div>
+            <li><a href="../projeto1/introducao.html">Utilização de DOM</a></li>
+            <div class="traco"></div>
+            <li><a href="../projeto1/introducao.html">Básico de funções</a></li>
+            <div class="traco"></div>
+            <li><a href="../projeto1/introducao.html">Utilização de arrays</a></li>
+        </ul>
+
+    </nav>
+
+    <header class="cabecalho">
+        <div class="divisao">
+            <img id="hamburguer" src="../../img/Hamburger_icon.svg.png" alt="Menu hamburguer" onclick="abrirMenu()">
+        </div>
+        <div class="divisao-logo">
+            <a href="#" id="andrey"><img id="andrey" src="../../img/Andrey.svg" alt="Menu hamburguer" onclick="abrirMenu()"></a>
+        </div>
+        <div class="divisao">
+        </div>
+
+    </header>
+
+    <main class="conteudos">
+
+
+        <section class="conteudo">
+            
+            <div class="foto-projeto"></div>
+
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer>
+        <div class="contatos">
+
+            <div class="esquerda">
+
+                <p>Email: example@example.com</p>
+
+            </div>
+            <div class="direita">
+                <a href="https://www.linkedin.com/in/andrey-dias-a06b04276/"> <img src="../../img/LinkedIn_icon.svg" alt="Linkedin" width="20px">LinkedIn</a>
+                <a href="https://github.com/dreyrd"> <img src="../../img/icons8-github.svg" alt="GitHub" width="23px">GitHub</a>
+            </div>
+
+
+        </div>
+
+        <p>©Andrey Rosa Dias</p>
+
+    </footer>
+
+    <!-- codigo das cores:
+    https://coolors.co/4b4237-d5a021-ded4ba-a49694-736b60 -->
+
+
+    <script src="../../script.js"></script>
 </body>
 </html>
