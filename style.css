@@ -66,7 +66,7 @@ nav{
     padding: 0;
     transform: translateX(-100%);
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     background-color: #DED4BA;
     width: 350px;
     max-width: auto;
@@ -147,19 +147,23 @@ nav::-webkit-scrollbar{
     height: 100px;
 }
 
-.imagens img {
-    max-width: 100%; /* Limita a largura da imagem para caber na div */
-    max-height: 100%; /* Limita a altura da imagem */
-    object-fit: cover; /* Ajusta a imagem mantendo a proporção */
+.opcoes-imagem {
+    height: 100%;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
-#imagem-atual-p1{
-    background-image: url('./img/projeto1-img/img1.png');
+.container-img-atual {
+    /* background-image: url('./img/projeto1-img/img1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
-    height: 600px;
+    height: auto;
     margin-bottom: 10px;
+}
+
+#imagem-atual {
+    width: 100%;
 }
 
 
@@ -187,6 +191,7 @@ nav::-webkit-scrollbar{
     border-radius: 2em;
     margin-right: 50px;
     overflow: hidden;
+    border: none;
 }
 
 .foto-projeto > img{
@@ -209,6 +214,7 @@ nav::-webkit-scrollbar{
     padding: 15px 70px;
     background-color: #a49694;
     border-radius: 0.4em;
+    margin-bottom: 15px;
 }
 
 .titulo-projeto{

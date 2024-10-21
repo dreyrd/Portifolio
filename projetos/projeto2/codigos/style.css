@@ -1,0 +1,20 @@
+body{
+    padding-top: 100px;
+}
+
+.ex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+/* .inputs{
+    display: flex;
+    justify-content: center;
+} */
+
+.botao{
+    width: 100px;
+}
