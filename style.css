@@ -159,6 +159,7 @@ nav::-webkit-scrollbar{
     background-size: cover;
     width: 100%;
     height: 600px;
+    margin-bottom: 10px;
 }
 
 
@@ -185,6 +186,12 @@ nav::-webkit-scrollbar{
     background-color: black;
     border-radius: 2em;
     margin-right: 50px;
+    overflow: hidden;
+}
+
+.foto-projeto > img{
+    height: 100%;
+    width: 100%;
 }
 
 .lateral{
