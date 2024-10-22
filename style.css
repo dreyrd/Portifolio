@@ -187,11 +187,11 @@ nav::-webkit-scrollbar{
 .foto-projeto{
     width: 200px;
     height: 200px;
-    background-color: black;
     border-radius: 2em;
     margin-right: 50px;
     overflow: hidden;
     border: none;
+    padding: 0;
 }
 
 .foto-projeto > img{
@@ -209,12 +209,16 @@ nav::-webkit-scrollbar{
 }
 
 .lateral > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     padding: 15px 70px;
     background-color: #a49694;
     border-radius: 0.4em;
     margin-bottom: 15px;
+    width: 30%;
 }
 
 .titulo-projeto{

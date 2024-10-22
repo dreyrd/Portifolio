@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cursos frontend</title>
+</head>
+<body>
+    
+    
+    <main>
+        
+
+        <section class="cursos">
+
+            <div class="curso">
+                <img src="./img/html-icon.png" alt="html">
+                <p>Curso HTML (R$23,78)</p>
+
+                <div class="qtde-curso">
+                    <button onclick="diminuirHtml()">-</button>
+                    <p id="qtde-html">0</p>
+                    <button onclick="aumentarHtml()">+</button>
+                </div>
+
+            </div>
+
+
+            <div class="curso">
+                <img src="./img/css-icon.png" alt="css">
+                <p>Curso CSS (R$25,32)</p>
+
+                <div class="qtde-curso">
+                    <button onclick="diminuirCss()">-</button>
+                    <p id="qtde-css">0</p>
+                    <button onclick="aumentarCss()">+</button>
+                </div>
+
+            </div>
+
+
+            <div class="curso">
+                <img src="./img/js-icon.png" alt="js">
+                <p>Curso JS (R$33,00)</p>
+
+                <div class="qtde-curso">
+                    <button onclick="diminuirJs()">-</button>
+                    <p id="qtde-js">0</p>
+                    <button onclick="aumentarJs()">+</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="pagamento">
+
+            <div class="preco">
+                <p>Total: R$</p>
+                <p id="preco-total"></p>
+            </div>
+
+            <button onclick="pagar()">Pagar</button>
+
+        </section>
+
+    </main>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
