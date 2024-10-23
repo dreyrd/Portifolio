@@ -70,9 +70,26 @@ main{
 .pagamento{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 20%;
 }
 
 .preco{
     display: flex;
     font-size: 25px;
+}
+
+.botao-pagar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28536b;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.5em;
+    margin-top: 10px;
+    cursor: pointer;
 }

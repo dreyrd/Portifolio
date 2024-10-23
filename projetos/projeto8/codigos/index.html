@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cursos frontend</title>
+</head>
+<body>
+    
+    
+    <main>
+        <h1>Restaurante do Andrey</h1>
+        
+        <p>Selecione um dos nossos pratos</p>
+        <select name="Pratos" id="pratos">
+            <option value="45.00">Risoto de Cogumelos Selvagens (R$45,00)</option>
+            <option value="78.00">Filé Mignon ao Molho de Vinho Tinto (R$78,00)</option>
+            <option value="56.00">Peixe Grelhado com Salsa Verde (R$56,00)</option>
+            <option value="42.00">Lasanha Vegetariana (R$42,00)</option>
+            <option value="18.00">Torta de Limão Siciliano com Merengue (R$18,00)</option>
+        </select>
+
+        <div class="qtde">
+            <p>Quantidade: </p>
+            <input type="number" id="qtde-prato" min="1">
+        </div>
+
+        <p id="resultado"></p>
+
+        <button class="botao-calcular" onclick="calcular()">Calcular</button>
+
+    </main>
+
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
